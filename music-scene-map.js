@@ -344,20 +344,6 @@ $(document).ready( function () {
                                             src: 'images/spotify-icon.png'
                                         })
                                 ),
-                            $('<a/>')
-                                .attr({
-                                    href:
-                                    'https://www.amazon.co.uk/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.co.uk%2Fs%3Fie%3DUTF8%26search-alias%3Dmusic%26field-artist%3D' + encodeURIComponent(encodeURIComponent(artist_name)) + '&tag=mavitorguk-21&linkCode=ur2&camp=1634&creative=19450',
-                                    title: 'Amazon'
-                                })
-                                .append(
-                                    $('<img/>')
-                                        .attr({
-                                            class: 'icon',
-                                            alt: '[Amazon]',
-                                            src: 'images/amazon-icon.png'
-                                        })
-                                )
                         )
                 )
         );
